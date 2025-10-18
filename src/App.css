@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 100%;
+  background-color: #0f1222;
+}
+
+.container {
+  background-color: #0f1222;
+  color: #e9ecf1;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  min-height: 100%;
+}
+.desc {
+  background: "#171a2b";
+  border: "1px solid #2b2f46";
+  border-radius: 16px;
+  padding: 20;
+  width: 520;
+  max-width: "100%";
+}
+
+.setupInputs {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+h2 {
+  margin: 0 0 8px;
+}
+p {
+  margin: 0 0 16px;
+  color: #a7b0c2;
+}
+
+label {
+  display: "block";
+  font-size: 12px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input {
+  width: 100%;
+
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #2b2f46;
+  background: "#0b0d18";
+  color: "#e9ecf1";
+}
+
+.colorInput {
+  height: 36px;
+  min-width: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btns {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.btn {
+  padding: 10px 14px;
+  border: 1px solid #2b2f46;
+  border-radius: 10px;
+  background: #111328;
+  color: #e9ecf1;
+  cursor: pointer;
+}
+
+.shareLink {
+  margin-top: 16px;
+  font-size: 14px;
+  color: "#a7b0c2";
+}
+
+code {
+  color: #ffb700;
+}
+
+.gameContainer {
+  display: grid;
+  gap: 12px;
+}
+
+.gameHeader {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+span {
+  font-size: 14px;
+}
+.roomTitle,
+.guestTitle {
+  color: #a7b0c2;
+}
+.hostTitle,
+.winTitle {
+  color: #36d399;
+}
+.winTitle {
+  font-weight: 700;
+}
+
+canvas {
+  background: #12142a;
+  border: 1px solid #2b2f46;
+  border-radius: 16px;
+}
